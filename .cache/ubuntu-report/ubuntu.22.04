@@ -1,0 +1,68 @@
+{
+  "Version": "22.04",
+  "OEM": {
+    "Vendor": "System manufacturer",
+    "Product": "System Product Name",
+    "Family": "To Be Filled By O.E.M."
+  },
+  "BIOS": {
+    "Vendor": "American Megatrends Inc.",
+    "Version": "0604"
+  },
+  "Arch": "amd64",
+  "HwCap": "-",
+  "GPU": [
+    {
+      "Vendor": "1002",
+      "Model": "9710"
+    }
+  ],
+  "RAM": 3.8,
+  "Disks": [
+    250
+  ],
+  "Partitions": [
+    81,
+    0.5
+  ],
+  "Screens": [
+    {
+      "Size": "330mmx270mm",
+      "Resolution": "1280x1024",
+      "Frequency": "74.90"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "wayland"
+  },
+  "Language": "es_AR",
+  "Timezone": "America/Argentina/Buenos_Aires",
+  "Install": {
+    "Media": "Ubuntu 22.04.1 LTS \"Jammy Jellyfish\" - Release amd64 (20220809.1)\n",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "resize_use_free",
+    "DownloadUpdates": false,
+    "Language": "es",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "4": "language",
+      "17": "console_setup",
+      "20": "console_setup",
+      "36": "prepare",
+      "69": "partman",
+      "72": "partman",
+      "76": "start_install",
+      "113": "timezone",
+      "123": "usersetup",
+      "161": "user_done",
+      "1239": "done"
+    }
+  }
+}

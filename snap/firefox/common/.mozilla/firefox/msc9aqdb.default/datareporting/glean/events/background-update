@@ -1,0 +1,2 @@
+{"timestamp":778793,"category":"nimbus_events","name":"enroll_failed","extra":{"experiment":"tcp-rollout-phase-iii-tcp-on-by-default-for-95-existing-release-profiles","reason":"feature-conflict"}}
+{"timestamp":1162052,"category":"nimbus_events","name":"enroll_failed","extra":{"reason":"feature-conflict","experiment":"tcp-rollout-phase-iii-tcp-on-by-default-for-95-existing-release-profiles"}}
